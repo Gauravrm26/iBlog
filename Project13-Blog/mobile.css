@@ -1,0 +1,43 @@
+@media screen and (max-width:950px) {
+    .navigation{
+        /* display: flex; */
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    .nav-left{
+        flex-direction: column;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .logo{
+        text-align: center;
+    }
+    .content-right{
+        display: none;
+    }
+    .contents{
+        flex-direction: column;
+        text-align: center;
+    }
+    .home-img img{
+        width: 200px;
+    }
+    .home-img1 img{
+        width: 200px;
+    }
+    .content h1{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:405px){
+    .content h1{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .nav-right{
+        display: none;
+    }
+}

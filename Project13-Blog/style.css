@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.logo{
+    overflow-y: hidden;
+}
+.footer p{
+    overflow-y: hidden;
+}
+/* Navbar */
+
+.navigation{
+    /* height: 8vh; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin: auto;
+    margin-top: 1.4%;
+    margin-bottom: 1.5%;
+}
+
+.nav-left{
+    font-family: 'Baloo Bhaina 2', cursive;
+    display: flex;
+    font-size: 1.8rem;
+    align-items: center;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+}
+
+.nav-left ul li{
+    list-style: none;
+    margin: 0 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+}
+
+.nav-left ul li a:hover{
+    color: rgb(18, 161, 155);
+}
+
+.nav-left ul a{
+    text-decoration: none;
+    color: black;
+}
+
+.form-input{
+    padding: 5px 0px 0px 10px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 0.87rem;
+    align-items: center;    
+    margin: 0 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn{
+    padding: 0px 15px;
+    padding-top: 5px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 0.87rem;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgb(18, 161, 155);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Content */
+
+.content{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 0.9rem;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 1%;
+    padding-bottom: 1%;
+    position: relative;
+}
+
+.content::after {
+    content: "";
+    background-image: url(images/backg.jpg);
+    width: 100%;
+    background-size: cover;
+    height: inherit;
+    opacity: 0.3;
+    position: absolute;
+    border-radius: 12px;
+}
+
+.content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    z-index: 1;
+}
+
+.content-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-right img{
+    width: 14.5vw;
+    border: 2px solid black;
+    border-radius: 45%;
+}
+
+.contents{
+    display: flex;
+    margin: 2%;
+} 
+
+.hr{
+    padding-bottom: 2%;
+}
+
+/* Articles */
+
+.home-article{
+    background-color: rgb(248, 239, 239, 0.5); 
+    font-family: 'Baloo Bhaina 2', cursive;
+}  
+.home-article h2{
+    text-align: center;
+    text-decoration: underline;
+}  
+
+.home-articles{
+    align-self: center;
+    padding-left: 3%;
+}
+
+.home-articles a{
+    text-decoration: none;
+    color: black;
+}
+
+.home-img img{
+    width: 300px;
+    padding-bottom: 1%;
+}
+
+.home-img1 img{
+    width: 300px;
+    padding-bottom: 1%;
+    height: 72%;
+}
+
+/* Footer */
+
+.footer{
+    background-color: rgb(18, 161, 155);
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: white;
+}
+
+.submitb{
+    margin-top: 5%;
+}
